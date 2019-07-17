@@ -1,0 +1,170 @@
+body {
+  background-color : black;
+  display : flex; 
+  align-items : center;
+}
+
+.cabeca {
+  position : absolute;
+  top : 10%;
+  left : 40%;
+  width : 20rem;
+  height : 20rem;
+  border-radius : 50%;
+ background-color : red;
+}
+
+.olho-direito {
+  position : absolute;
+  top : 15%;
+  left : 52%;
+  width : 7rem;
+  height : 10rem;
+  border-radius : 50%;
+  background-color : black;
+}
+
+.pupila1 {
+  position : absolute;
+  top : 5%;
+  left : -110%;
+  width : 7rem;
+  height : 10rem;
+  border-radius : 50%;
+  background-color : black;
+}
+.olho-esquerdo {
+  position : relative;
+  top : 5%;
+  left : 6%;
+  width : 6rem;
+  height : 9rem;
+  border-radius : 100%;
+  background-color : white;
+}
+
+.pupila2 {
+  position : absolute;
+  top : -5%;
+  left : 130%;
+  width : 6rem;
+  height : 9rem;
+  border-radius : 100%;
+  background-color : white;
+}
+
+.pescoço {
+  position : absolute;
+  top : 10rem;
+  left : -4.2rem;
+  width : 7rem;
+  height : 10rem;
+  border-radius : 50%;
+  background-color : red;
+}
+
+.tronco {
+  position : absolute;
+  top : 6.5rem;
+  left : -2.1rem;
+  width : 11rem;
+  height : 12rem;
+  border-radius : 20%;
+  background-color : red;
+}
+.braço-direito {
+  position : absolute;
+  top : -7rem;
+  left : -3rem;
+  width : 2.1rem;
+  height : 18rem;
+  border-radius : 20%;
+  transform: rotate(120deg);
+  background-color : red;
+}
+.dedo1-d {
+  position : relative;
+  top : 11.3rem;
+  left : 1.7rem;
+  width : 0.6rem;
+  height : 4rem;
+  border-radius : 20%;
+  background-color : red;  
+}
+.dedo2-d {
+   position : relative;
+  top : 1rem;
+  left : -1.5rem;
+  width : 0.6rem;
+  height : 3rem;
+  border-radius : 20%;
+  background-color : red;  
+}
+.dedo3-d {
+   position : relative;
+  top : -2.5rem;
+  left : 2.7rem;
+  width : 0.6rem;
+  height : 3rem;
+  border-radius : 20%;
+  transform: rotate(100deg);
+  background-color : red;  
+}
+.braço-esquerdo {
+  position : absolute;
+  top : -11rem;
+  left : -8rem;
+  width : 2rem;
+  height : 13rem;
+  border-radius : 20%;
+  transform: rotate(120deg);
+  background-color : red;
+}
+.dedo1-e {
+      position: relative;
+    top: -9rem;
+    left: -25.7rem;
+    width: 0.6rem;
+    height: 4rem;
+    border-radius: 20%;
+    transform: rotate(145deg);
+    background-color: red;
+}
+ .dedo2-e {
+  position: absolute;
+    top: 1em;
+    left: -1.4rem;
+    width: 0.6rem;
+    height: 3rem;
+    border-radius: 11%;
+    background-color: red;
+}
+.dedo3-e {
+  position: relative;
+    top: -2rem;
+    left: -1rem;
+    width: 0.6rem;
+    height: 3rem;
+    border-radius: 20%;
+    transform: rotate(90deg);
+    background-color: red;
+}
+.teia1 {
+  position: absolute;
+    top: -10.9rem;
+    left: 9.1rem;
+    width: 0.2rem;
+    height: 21rem;
+    background-color: white;
+    transform: rotate(88deg);
+}
+
+.teia2 {
+  position: relative;
+    top: 35.1rem;
+    left: 21.1rem;
+    width: 0.2rem;
+    height: 21rem;
+    background-color: white;
+    transform: rotate(117deg);
+}
